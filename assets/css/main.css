@@ -1537,9 +1537,9 @@ input, select, textarea {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-	float: left;
+	float: center;
 	width: 33.33%;
-	padding: 5px;
+	padding: 3px;
   }
   
   /* Clear floats after image containers */
@@ -2357,13 +2357,13 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 80%;
+			display: flex;
+			flex-direction: column;
+			width: 100%;
 		}
 
 			.image.fit img {
-				width: 80%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2720,7 +2720,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #808080;
 			}
 
 			.tiles article.style2 > .image:before {
